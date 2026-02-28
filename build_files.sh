@@ -1,3 +1,4 @@
+export TZ="UTC"
 npm install
 npm run build -w translate
 dnf install libpq-devel libxml2-devel libxslt-devel -y
