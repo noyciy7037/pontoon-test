@@ -1,4 +1,5 @@
 npm install
 npm run build -w translate
-pip install -r requirements.txt
-python3.11 manage.py collectstatic
+uv venv -p 3.11
+uv pip sync requirements.txt
+python manage.py collectstatic
